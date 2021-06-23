@@ -8,13 +8,13 @@ interface TeacherInterface {
 	  getCoffeeBreak(): string;
 	  workTeacherTasks(): string;
 }
-class Director implements DirectorInterface {
+export class Director implements DirectorInterface {
       workFromHome(): { return 'Working from home'; }
       getCoffeeBreak(): { return 'Getting a coffee break'; }
       workTeachersTasks(): { return 'Getting to director tasks'; }
 }
 
-class Teacher implements TeacherInterface {
+export class Teacher implements TeacherInterface {
       workFromHome(): { return 'Cannot work from home'; }
       getCoffeeBreak(): { return 'Cannot have a break'; }
       workTeacherTasks(): { return 'Getting to work'; }
