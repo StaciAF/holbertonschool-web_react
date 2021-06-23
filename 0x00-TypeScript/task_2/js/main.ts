@@ -9,15 +9,15 @@ interface TeacherInterface {
 	  workTeacherTasks(): string;
 }
 export class Director implements DirectorInterface {
-      workFromHome(): { return 'Working from home'; }
-      getCoffeeBreak(): { return 'Getting a coffee break'; }
-      workTeachersTasks(): { return 'Getting to director tasks'; }
+      workFromHome() { return 'Working from home'; }
+      getCoffeeBreak() { return 'Getting a coffee break'; }
+      workTeachersTasks() { return 'Getting to director tasks'; }
 }
 
 export class Teacher implements TeacherInterface {
-      workFromHome(): { return 'Cannot work from home'; }
-      getCoffeeBreak(): { return 'Cannot have a break'; }
-      workTeacherTasks(): { return 'Getting to work'; }
+      workFromHome() { return 'Cannot work from home'; }
+      getCoffeeBreak() { return 'Cannot have a break'; }
+      workTeacherTasks() { return 'Getting to work'; }
 }
 export function createEmployee(salary: number | string): Director | Teacher {
        if(typeof salary === 'number' && salary < 500) return new Teacher;
