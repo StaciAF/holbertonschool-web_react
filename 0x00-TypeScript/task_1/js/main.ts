@@ -32,5 +32,5 @@ export const StudentClass: StudentConstructor = class StudentClass implements St
        this.lastName = lastName;
 }
 workOnHomework() {return 'Currently working';}
-displayName() {return firstName; }
+displayName() {return this.firstName; }
 }
