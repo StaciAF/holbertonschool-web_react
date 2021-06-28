@@ -11,43 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.40.0",
-    "webpack-cli": "^4.7.2"
-  },
-  "dependencies": {
-    "css-loader": "^5.2.6",
-    "file-loader": "^6.2.0",
-    "jquery": "^3.6.0",
-    "lodash": "^4.17.21"
-  }
-}
-root@10cec33bdcd8:/holbertonschool-web_react/0x01-Webpack/task_2# emacs package.json 
-root@10cec33bdcd8:/holbertonschool-web_react/0x01-Webpack/task_2# git add package.json 
-root@10cec33bdcd8:/holbertonschool-web_react/0x01-Webpack/task_2# git commit -m "update package.json dependencies"[master 4692c42] update package.json dependencies
- 1 file changed, 6 insertions(+), 2 deletions(-)
-root@10cec33bdcd8:/holbertonschool-web_react/0x01-Webpack/task_2# git push
-Counting objects: 5, done.
-Delta compression using up to 2 threads.
-Compressing objects: 100% (5/5), done.
-Writing objects: 100% (5/5), 668 bytes | 668.00 KiB/s, done.
-Total 5 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/StaciAF/holbertonschool-web_react.git
-   16ec2eb..4692c42  master -> master
-root@10cec33bdcd8:/holbertonschool-web_react/0x01-Webpack/task_2# cat package.json 
-{
-  "name": "task_1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
       "css-loader": "^5.2.6",
       "file-loader": "^6.2.0",
       "image-webpack-loader": "^7.0.1",
