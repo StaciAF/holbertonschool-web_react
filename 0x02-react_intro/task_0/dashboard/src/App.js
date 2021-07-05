@@ -1,4 +1,4 @@
-import logo from './holberton-logo.jpg';
+import logo from './holberton-logo.png';
 import './App.css';
 
 function App() {
@@ -8,11 +8,13 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>School dashboard</h1>
       </header>
+      <hr className="HR-red"></hr>
       <body className="App-body">
-        <p>Login to access the full dashboard</p>
+        <p className="Body-p">Login to access the full dashboard</p>
       </body>
+      <hr className="HR-red"></hr>
       <footer className="App-footer">
-        <p>Copyright 2020 - holberton Schoolß</p>
+        <p>Copyright 2020 - holberton School</p>
       </footer>
     </div>
   );
