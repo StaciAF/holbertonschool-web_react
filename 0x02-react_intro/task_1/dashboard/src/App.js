@@ -10,9 +10,9 @@ function App() {
         <h1>School dashboard</h1>
       </header>
       <hr className="HR-red"></hr>
-      <body className="App-body">
+      <div className="App-body">
         <p className="Body-p">Login to access the full dashboard</p>
-      </body>
+      </div>
       <hr className="HR-red"></hr>
       <footer className="App-footer">
         <p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
