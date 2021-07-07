@@ -9,18 +9,13 @@
 }
 
 .App-body {
-  margin:   1vmin;
+  margin: 3vmin;
 }
 
 .Body-p {
   margin: 3vmin;
   padding-top: 2vmin;
-}
-
-.Login-form {
-  margin: 1vmin;
-  text-align: left;
-  padding-bottom: 25vmin;
+  padding-bottom: 50vmin;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
