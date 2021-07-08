@@ -31,6 +31,7 @@ module.exports = {
     hotOnly: true
   },
   devtool: 'inline-source-map',
+  devtool: 'image-webpack-loader',
   plugins: [new webpack.HotModuleReplacementPlugin({
     name: "index.html",
     inject: false,
