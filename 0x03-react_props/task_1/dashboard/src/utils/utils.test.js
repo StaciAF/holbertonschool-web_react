@@ -1,12 +1,14 @@
-const {  getFooterCopy, getFullYear, getLatestNotification } = require('./utils')
+const { getFooterCopy, getFullYear, getLatestNotification } = require('./utils')
 
-test('check getFooterCopy boolean return string value', () => {
+test('check getFooterCopy boolean return true value', () => {
     expect(getFooterCopy(true)).toBe("Holberton School");
+})
+test('check getFooterCopy boolean return false value', () => {
     expect(getFooterCopy(false)).toBe("Holberton School main dashboard");
 })
 
 test('check getFullYear return value is current year', () => {
-    expect(getFullYear().toString()).toBe(new Date.getFullYear().toString());
+    expect(getFullYear().toString()).toBe("2021");
 })
 
 test('check getLatestNotification return value', () => {
