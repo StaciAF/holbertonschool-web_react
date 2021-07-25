@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import App from './App';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import Login from './Login/Login';
-import Notifications from './Notifications/Notifications';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import Login from '../Login/Login';
+import Notifications from '../Notifications/Notifications';
 
 describe('App /> renders multiple components', () => {
   it('Successfully renders <App /> component', () => {
