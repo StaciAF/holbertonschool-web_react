@@ -5,7 +5,7 @@ import Notifications from './Notifications';
 describe('Notifications />', () => {
   it('Successfully renders <Notifications /> component', () => {
     const wrapper = shallow(<Notifications />);
-    expect(wrapper).exists();
+    expect(wrapper.exists());
   });
   it('Successfully renders 3 list items in <Notifications /> component', () => {
     const wrapper = shallow(<Notifications />);

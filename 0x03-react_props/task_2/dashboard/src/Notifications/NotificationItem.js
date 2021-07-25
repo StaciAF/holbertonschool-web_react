@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NotificationItem = ({ type, html, val }) => {
+const NotificationItem = ({ type, html, value }) => {
     return (
         <li data-notification-type={type} dangerouslySetInnerHTML={html}>{value}</li>
     )
