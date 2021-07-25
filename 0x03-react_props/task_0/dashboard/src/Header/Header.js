@@ -1,14 +1,14 @@
 import React from 'react';
 import './Header.css';
-import logo from '../assets/holberton-logo.jpg';
+import H_logo from '../assets/holberton-logo.jpeg';
 
 const Header = () => {
     return (
         <>
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+            <div className="App-header">
+                <img src={H_logo} className="App-logo" alt="logo" />
                 <h1 className="title">School dashboard</h1>
-            </header>
+            </div>
             <hr className="HR-red"></hr>
         </>
     );
