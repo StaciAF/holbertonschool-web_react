@@ -1,0 +1,12 @@
+table,
+th,
+td {
+    border: 1px solid gray;
+    width: 90%;
+}
+table {
+    margin: 0 auto;
+}
+thead tr:nth-child(2) {
+    text-align: left;
+}

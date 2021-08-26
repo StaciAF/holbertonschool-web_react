@@ -1,0 +1,20 @@
+.Login-form {
+    margin: 1vmin;
+    text-align: left;
+    padding-bottom: 25vmin;
+}
+
+.App-body {
+    margin: 1vmin;
+}
+
+.Body-p {
+    margin: 3vmin;
+    padding-top: 2vmin;
+}
+
+.HR-red {
+    height: 2px;
+    background-color: red;
+    margin: 0 15px 0 15px;
+}
